@@ -1,0 +1,10 @@
+Routing for multiple pages in React
+    react-router-dom package is needed for this functionality, ususally pages folder is added in src folders
+    for routing pages
+    
+    ReactDOM.render(
+        <BrowserRouter>
+            <App />
+        </BrowserRouter>,
+        document.getElementById('root')
+    )
